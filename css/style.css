@@ -3,16 +3,62 @@
 }
 
 .head {
-    background-color: #fff5e6;
+    background-color: #fff2e6;
     border-bottom: 1px solid #995c00;
-    padding-bottom: 10px;
+    padding-bottom: 45px;
 }
+/* need to make a media query for the padding-bottom when on big screen*/
 .logo {
     height: 125px;
     width: 175px;
 }
 
 .menu {
-    padding-top: 35px;
+    padding-top: 45px;
     font-size: 30px;
+}
+
+.main {
+    background-image: url("../images/background.jpg");
+    border-bottom: 1px solid #995c00;
+    height: 600px;
+    width: 100%;
+}
+
+.body {
+    font-size: 30px;
+    font-weight: 20px;
+    padding-top: 70px;
+}
+
+#india {
+    font-family: 'Lemon', cursive;
+    font-size: 45px
+}
+
+.quote {
+    padding-top: 90px;
+}
+/* need to make a media query for the padding-top when on big screen*/
+.gandhi {
+    font-size: 25px;
+}
+
+.fas {
+    font-size: 40px;
+}
+
+.video {
+    background-color: #fff2e6;
+    height: 425px;
+    border-bottom: 1px solid #995c00;
+}
+
+#check {
+    margin: 0;
+    padding-top: 20px;
+}
+
+video {
+    height: 300px;
 }
