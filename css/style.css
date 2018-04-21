@@ -7,10 +7,22 @@
     border-bottom: 1px solid #995c00;
     padding-bottom: 45px;
 }
-/* need to make a media query for the padding-bottom when on big screen*/
+
+@media (min-width: 769px) {
+    .head {
+        padding-bottom: 10px;
+    }
+}
+
 .logo {
     height: 125px;
     width: 175px;
+}
+
+@media (min-width: 767px) and (max-width: 989px) {
+    .logo {
+        width: 110px;
+    }
 }
 
 .menu {
@@ -37,9 +49,15 @@
 }
 
 .quote {
-    padding-top: 90px;
+    padding-top: 125px;
 }
-/* need to make a media query for the padding-top when on big screen*/
+
+@media (min-width: 768px) {
+    .quote {
+        padding-top: 150px;
+    }
+}
+
 .gandhi {
     font-size: 25px;
 }
@@ -60,5 +78,11 @@
 }
 
 video {
-    height: 300px;
+    height: 165px;
+}
+
+@media (min-width: 769px) {
+    video {
+        height: 300px;
+    }
 }
